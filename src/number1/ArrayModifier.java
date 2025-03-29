@@ -2,7 +2,7 @@ package number1;
 
     public class ArrayModifier {
         public static int[] modifyArray(int[] arr) {
-            main();
+            main4();
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] < 6) { arr[i] *= 2;
                 }
@@ -42,7 +42,7 @@ package number1;
             }
         }
 
-        public static void main() {
+        public static void main4() {
             int size = 5;
             int[][] array = new int[size][size];
 
