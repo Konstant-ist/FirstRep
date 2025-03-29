@@ -5,20 +5,35 @@ public class Main {
 
 
     public static void main(String[] args) {
-        array3();
+        array1();
+        array2();
         array6();
+
 
     }
 
-    public static void array3() {
-        int[] arr = new int[]{1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < 6)
-                arr[i] *= 2;
-            System.out.println(Arrays.toString(arr));
-            }
-        System.out.println(Arrays.toString(arr));
+    public static void array1(){
+        int[] array1=new int[5];
+        System.out.println(array1);
+
+        for (int i=0;i<array1.length;i++){
+            if (array1[i]==0)
+                array1[i]=1;
         }
+        System.out.println(Arrays.toString(array1));
+    }
+
+
+    public static void array2() {
+        int[] array1 = new int[100];
+        System.out.println(array1);
+
+        for (int i = 0; i < array1.length; i++) {
+            array1[i]=i+1;
+        }
+        System.out.println(Arrays.toString(array1));
+    }
+
 
 
         public static void array6 () {
