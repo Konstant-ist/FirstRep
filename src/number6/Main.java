@@ -10,7 +10,6 @@ public class Main {
 
 
         double totalArea = FigureCalculator.AllArea(figure);
-
         System.out.println("Суммарная площадь фигур :"+ totalArea);
             }
         }

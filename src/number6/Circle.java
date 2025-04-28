@@ -11,11 +11,13 @@ public class Circle implements Figure {
 
 
     public Circle( double radius) {
+
         this.radius = radius;
     }
 
         public double area() {
-            return Math.PI * radius() * radius();
+
+        return Math.PI * radius() * radius();
         }
     }
 

@@ -9,6 +9,7 @@ public class Triangle implements Figure{
         this.height=height;
     }
     public double area(){
+
         return 0.5 * base * height;
     }
 }
