@@ -5,7 +5,7 @@ import java.util.*;
 public class AttendanceLogger {
     private final List<VisitRecord> visits = new ArrayList<>();
 
-   
+
     private static class VisitRecord {
         private final String userId;
         private final String timestamp;
