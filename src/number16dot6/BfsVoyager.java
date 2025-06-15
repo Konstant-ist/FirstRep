@@ -1,4 +1,4 @@
-package number16;
+package number16dot6;
 
 import java.util.LinkedList;
 import java.util.Queue;

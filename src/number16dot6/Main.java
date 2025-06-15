@@ -1,4 +1,8 @@
-package number16;
+package number16dot6;
+
+import number16dot6.BfsVoyager;
+import number16dot6.DfsVoyager;
+import number16dot6.Voyager;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,7 +11,7 @@ public class Main {
                 {0, 1, 1, 0, 1},
                 {0, 1, 0, 1, 0}
         };
-        Voyager dfsVoyager = new DfsVoyager();
+        number16dot6.Voyager dfsVoyager = new DfsVoyager();
         System.out.println("DFS: " + dfsVoyager.lookupIslands(map));
 
         int[][] map2 = {
@@ -19,4 +23,5 @@ public class Main {
         System.out.println("BFS: " + dfsVoyager.lookupIslands(map));
     }
 }
+
 

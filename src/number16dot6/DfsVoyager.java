@@ -1,6 +1,8 @@
-package number16;
+package number16dot6;
 
-public class DfsVoyager implements Voyager{
+import number16dot6.Voyager;
+
+public class DfsVoyager implements Voyager {
     public int lookupIslands(int[][] map){
         if (map == null || (map.length == 0)) {
             return 0;
