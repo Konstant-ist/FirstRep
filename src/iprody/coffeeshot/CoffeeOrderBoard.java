@@ -15,7 +15,7 @@ public class CoffeeOrderBoard {
         nextOrderNumber++;
     }
 
-    // Выдает ближайший заказ (первый в очереди)
+
     public Order deliver() {
         if (orders.isEmpty()) {
             throw new NoSuchElementException("Нет заказов в очереди");
@@ -23,7 +23,7 @@ public class CoffeeOrderBoard {
         return orders.remove(0);
     }
 
-    // Выдает заказ по номеру
+    
     public Order deliver(int orderNumber) {
         for (Order order : orders) {
             if (order.getNumber() == orderNumber) {
