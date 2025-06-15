@@ -23,7 +23,7 @@ public class BfsVoyager implements Voyager {
         }
         return islandCount;
     }
-//hsfhfbxb
+
     private void bfs(int[][] map, int i,int j){
         Queue<int[]> queue = new LinkedList<>();
         queue.add(new int[]{i,j});

@@ -1,5 +1,5 @@
 package number16;
-//jytrhrhhn
+
 public class Main {
     public static void main(String[] args) {
         int[][] map = {

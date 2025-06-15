@@ -1,5 +1,5 @@
 package number16;
-//hfjdghf
+
 public class DfsVoyager implements Voyager{
     public int lookupIslands(int[][] map){
         if (map == null || (map.length == 0)) {
